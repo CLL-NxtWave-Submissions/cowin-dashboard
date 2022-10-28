@@ -1,4 +1,4 @@
-.vaccination-coverage-container {
+.vaccination-by-gender-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,14 +10,10 @@
   margin-bottom: 1.5rem;
 }
 
-.vaccination-coverage-header {
+.vaccination-by-gender-header {
   color: #cbd5e1;
   font-size: 1.2rem;
   font-weight: 550;
   align-self: flex-start;
   margin-bottom: 1.5rem;
-}
-
-.chart-container {
-  width: 100%;
 }
