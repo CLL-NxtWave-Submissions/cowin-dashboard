@@ -1,1 +1,23 @@
-/* Write your CSS here */
+.vaccination-coverage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1c1c2b;
+  padding: 3rem 1.5rem;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.vaccination-coverage-header {
+  color: #cbd5e1;
+  font-size: 1.2rem;
+  font-weight: 550;
+  align-self: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.chart-container {
+  width: 100%;
+}
