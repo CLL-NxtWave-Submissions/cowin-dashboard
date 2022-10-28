@@ -39,7 +39,7 @@ class CowinDashboard extends Component {
       const fetchedCowinData = await cowinDataAPIResponse.json()
 
       const formattedCowinData = {
-        lat7DaysVaccination: fetchedCowinData.last_7_days_vaccination.map(
+        last7DaysVaccination: fetchedCowinData.last_7_days_vaccination.map(
           dailyVaccinationData => ({
             vaccineDate: dailyVaccinationData.vaccine_date,
             dose1: dailyVaccinationData.dose_1,
