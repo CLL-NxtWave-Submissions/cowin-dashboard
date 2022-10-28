@@ -18,19 +18,20 @@
 }
 
 .cowin-brand-img {
-  height: 3rem;
-  width: 3rem;
+  height: 3.5rem;
+  width: 3.5rem;
   margin-right: 0.5rem;
 }
 
 .cowin-brand-name {
   color: #2cc6c6;
   font-size: 2rem;
+  font-weight: 550;
 }
 
 .cowin-header {
   color: #cbd5e1;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 550;
   margin-bottom: 1rem;
   align-self: flex-start;
