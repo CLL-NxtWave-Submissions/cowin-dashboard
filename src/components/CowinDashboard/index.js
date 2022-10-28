@@ -29,8 +29,8 @@ class CowinDashboard extends Component {
       cowinDataAPIResponseState: cowinDataAPIResponseStates.loading,
     })
 
-    const cowinDataAPIRequestUrl = 'https://apis.ccbp.in/covid-vaccination-data'
-    const cowinDataAPIResponse = await fetch(cowinDataAPIRequestUrl)
+    const vaccinationDataApiUrl = 'https://apis.ccbp.in/covid-vaccination-data'
+    const cowinDataAPIResponse = await fetch(vaccinationDataApiUrl)
     let currentCowinDataAPIResponseState = null
     let cowinData = {}
 
