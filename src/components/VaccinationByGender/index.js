@@ -17,8 +17,8 @@ const VaccinationByGender = props => {
             data={genderBasedData}
             cx="50%"
             cy="50%"
-            outerRadius={80}
-            innerRadius={50}
+            outerRadius={150}
+            innerRadius={80}
           >
             <Cell name="Male" fill="#f54394" />
             <Cell name="Female" fill="#5a8dee" />
