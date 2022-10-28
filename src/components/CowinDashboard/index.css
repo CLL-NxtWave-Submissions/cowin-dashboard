@@ -1,1 +1,37 @@
-/* Write your CSS here */
+.cowin-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  padding: 2rem;
+  background-color: #161625;
+  margin: 0;
+}
+
+.cowin-brand-container {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cowin-brand-img {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+
+.cowin-brand-name {
+  color: #2cc6c6;
+  font-size: 2rem;
+}
+
+.cowin-header {
+  color: #cbd5e1;
+  font-size: 3rem;
+  font-weight: 550;
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
