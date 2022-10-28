@@ -15,7 +15,7 @@ const VaccinationByAge = props => {
             data={ageBasedData}
             cx="50%"
             cy="50%"
-            outerRadius={80}
+            outerRadius={120}
           >
             <Cell name="18-44" fill="#2d87bb" />
             <Cell name="44-60" fill="#a3df9f" />
